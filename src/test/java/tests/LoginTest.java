@@ -4,8 +4,9 @@ import io.qameta.allure.*;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
-    String login = "kent94_77-f1tf@force.com";
-    String password = "password01";
+    //Add your login data before start the test
+    String login = "";
+    String password = "";
 
     @Test(description = "Log In")
     @Description("Authorization in SalesForce system")

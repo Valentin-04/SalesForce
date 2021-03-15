@@ -6,9 +6,9 @@ import org.testng.annotations.Test;
 import utils.Retry;
 
 public class AccountTest extends BaseTest {
-
-    String login = "kent94_77-f1tf@force.com";
-    String password = "password01";
+    //Add your login data before start the test
+    String login = "";
+    String password = "";
 
     @Test(description = "Creation of contact", retryAnalyzer = Retry.class)
     @Description("I'm creating contact for salesforce")
